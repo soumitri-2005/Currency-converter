@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("currencies_chiseled.png");
+}
+
+.container {
+    background-color: #f8a60d;
+    padding: 2rem;
+    border-radius: 0.7rem;
+    min-height: 40vh;
+    width: 47vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container #title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 1.5rem;
+    text-shadow: 2px 2px #1f1e1e29;
+}
+
+form {
+    margin: 0 0.5rem ;
+}
+
+form select, button, input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+form input {
+    font-size: 1rem;
+    height: 2.5rem;
+    padding-left: 0.5rem;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.dropdown i {
+    font-size: 1.3rem;
+    margin: 1.4rem;
+    padding-top: 1.5rem;
+}
+
+.select-container img{
+    max-width: 2rem;
+    padding: 0 0.1rem 0 0.1rem;
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    width: 6rem;
+    padding: 0.2rem 0.7rem;
+    background-color: #6969708f;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.select-container select {
+    font-size: 0.9rem;
+    margin: 0.1rem;
+    width: auto;
+}
+
+form p {
+    font-weight: 600;
+    padding: 0 0.5rem 0.2rem 0.5rem;
+}
+
+.msg {
+    margin: 1rem 0 0.5rem 0;
+    text-align: center;
+    font-size: 1.5rem; 
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+form button {
+    height: 2.3rem;
+    background-color: rgb(60, 68, 222);
+    color: #f7f7f7;
+    font-size: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    background-color: rgb(34, 216, 64);
+    color: rgb(8, 8, 86);
+    font-weight: 600;
+}
+
